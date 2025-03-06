@@ -39,7 +39,11 @@
 <body>
 
 <div class="success-message" id="successMessage">Success! Thank you for subscribing.</div>
-
+<div class="banner-ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"></script>
+        <!-- Banner Ad Placeholder -->
+        <div id="bannerAd"></div>
+    </div>
 <h1>Join Our Community</h1>
 <p>Transform your experience with our innovative solutions. Be part of a growing network that prioritizes your success.</p>
 
@@ -93,7 +97,7 @@
                 });
 
                 $(successMessage).slideDown(400).delay(3000).slideUp(400, function() {
-                    window.location.href = "https://example.com";
+                    window.location.href = "thanks.html";
                 });
             } catch (error) {
                 alert("Error: " + error.message);
