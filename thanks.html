@@ -3,37 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks!!!</title>
+    <title>Thank You for Joining Our Community!</title>
     
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <style>
+        .banner-ad {
+            margin: 20px 0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header {
+            background-color: #e0f2f1;
+            padding: 40px 0;
+            margin-bottom: 30px;
+        }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header-content {
             text-align: center;
         }
         h1 {
             color: #2e7d32;
-            font-size: 2.5em;
         }
-        p {
-            font-size: 1.2em;
-            color: #555;
+        .next-steps-section {
+            margin: 40px 0;
+        }
+        .tips-section {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+            margin: 40px 0;
+        }
+        .feature-icon {
+            font-size: 48px;
+            color: #26a69a;
+        }
+        .card {
+            height: 100%;
+        }
+        .progress-section {
+            margin: 40px 0;
+        }
+        .social-section {
+            margin: 40px 0;
+        }
+        .social-icon {
+            font-size: 36px;
+            margin: 0 10px;
+            color: #26a69a;
+        }
+        footer {
+            background-color: #263238;
+            color: white;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+        .email-icon {
+            font-size: 72px;
+            color: #26a69a;
+            margin-bottom: 20px;
+        }
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        .checklist-item i {
+            color: #2e7d32;
+            margin-right: 10px;
+        }
+        .countdown {
+            font-size: 24px;
+            font-weight: bold;
+            color: #26a69a;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
     <div class="banner-ad">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5673536918229327"
-     crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5673536918229327" crossorigin="anonymous"></script>
         <div id="bannerAd"></div>
     </div>
     
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <i class="material-icons email-icon">mark_email_read</i>
+                <h1>Thank You for Joining Our Community!</h1>
+                <p class="flow-text">We're excited to have you on board. Your welcome email is on its way to your inbox.</p>
+                <div class="countdown" id="countdown">Your email should arrive in approximately 5 minutes</div>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Thanks for Signing Up!</h1>
-        <p>We appreciate you joining our community. Please check your email for the eBook.</p>
+        <section class="next-steps-section">
+            <h2 class="center-align">What's Next?</h2>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <h4>While You Wait, Here's What to Expect:</h4>
+                            <div class="checklist-item">
+                                <i class="material-icons">check_circle</i>
+                                <div>
+                                    <strong>Welcome Email:</strong> Look for an email from support@ourcommunity.com with your eBook and login details.
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="material-icons">check_circle</i>
+                                <div>
+                                    <strong>Resource Access:</strong> Your welcome email contains links to our exclusive resources library.
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="material-icons">check_circle</i>
+                                <div>
+                                    <strong>Community Introduction:</strong> We'll introduce you to our online community platform where you can connect with other members.
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="material-icons">check_circle</i>
+                                <div>
+                                    <strong>First Steps Guide:</strong> You'll receive a step-by-step guide to help you get the most out of your membership.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips-section">
+            <h2 class="center-align">Quick Tips for Success</h2>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="center-align">
+                                <i class="material-icons feature-icon">bookmark</i>
+                                <h4>Start with Fundamentals</h4>
+                                <p>Begin by reviewing the core concepts in your welcome package. This foundation will help you understand the more advanced strategies later.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="center-align">
+                                <i class="material-icons feature-icon">schedule</i>
+                                <h4>Implement Gradually</h4>
+                                <p>Focus on applying one strategy at a time rather than trying to implement everything at once. This approach leads to better long-term results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="center-align">
+                                <i class="material-icons feature-icon">people</i>
+                                <h4>Engage with the Community</h4>
+                                <p>Don't hesitate to ask questions and share your progress with other members. Collective wisdom accelerates your success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="progress-section">
+            <h2 class="center-align">Success Story Spotlight</h2>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Meet David R., Community Member Since 2023</span>
+                            <p>"When I first joined, I was overwhelmed by the challenges in my industry. Within 60 days of implementing the strategies from the welcome package, I was able to increase my productivity by 35% and develop an entirely new approach to problem-solving that set me apart from competitors."</p>
+                            <blockquote>
+                                The most valuable aspect was the step-by-step implementation guide. It broke down complex concepts into manageable actions I could take immediately.
+                            </blockquote>
+                            <p>David attributes his success to consistently applying one new strategy each week and actively participating in monthly community discussions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-section">
+            <h2 class="center-align">Connect With Us</h2>
+            <p class="center-align">Join our social media channels for daily tips, success stories, and community updates:</p>
+            <div class="center-align">
+                <a href="#" class="social-icon"><i class="material-icons">facebook</i></a>
+                <a href="#" class="social-icon"><i class="material-icons">twitter</i></a>
+                <a href="#" class="social-icon"><i class="material-icons">linkedin</i></a>
+                <a href="#" class="social-icon"><i class="material-icons">youtube_searched_for</i></a>
+            </div>
+        </section>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5>Need Help?</h5>
+                    <p>If you don't receive your welcome email within 15 minutes, please check your spam folder or contact support@ourcommunity.com</p>
+                </div>
+                <div class="col s12 m6">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#" class="white-text">Community Guidelines</a></li>
+                        <li><a href="#" class="white-text">Success Stories</a></li>
+                        <li><a href="#" class="white-text">FAQ</a></li>
+                        <li><a href="#" class="white-text">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <p class="center-align">&copy; 2025 Our Community. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Simple countdown timer that updates every minute
+            let minutes = 5;
+            const countdown = document.getElementById('countdown');
+            
+            const updateCountdown = function() {
+                if (minutes > 0) {
+                    countdown.textContent = `Your email should arrive in approximately ${minutes} minute${minutes !== 1 ? 's' : ''}`;
+                    minutes--;
+                    setTimeout(updateCountdown, 60000); // Update every minute
+                } else {
+                    countdown.textContent = "Your email should have arrived. If not, please check your spam folder.";
+                }
+            };
+            
+            updateCountdown();
+        });
+    </script>
 </body>
 </html>
